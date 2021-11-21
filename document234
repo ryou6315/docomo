@@ -1,0 +1,119 @@
+Azure Logic Appsドキュメント				
+概要				
+クイックスタート				
+サンプル				
+概念				
+操作方法ガイド				
+リファレンス				
+				
+リソース				
+	料金			
+				
+				AS2
+				Azure Blob Storage
+				Azure Container Instances
+				Azure Cosmos DB
+				Azure Event Grid
+				Azure Event Hubs
+				Azure Functions
+				Azure Logic Apps
+				Azure Service Bus
+				Azure SQL データベース
+				Bing Search
+				Common Data Service
+				カスタム API と Web アプリ
+				遅延
+				Dynamics 365
+				EDIFACT
+				ファイル システム
+				フラット ファイル
+				FTP
+				GitHub
+				Gmail - Google データのセキュリティとプライバシー ポリシー
+				HTTP
+				HTTP + Swagger
+				HTTP Webhook
+				IBM 3270
+				IBM DB2
+				IBM Informix
+				IBM MQ
+				統合アカウント
+				Microsoft Graph Security
+				Office 365 Outlook
+				OneDrive
+				OneDrive for Business
+				Oracle Database
+				Outlook.com
+				繰り返し
+				要求/応答
+				RosettaNet
+				Salesforce
+				SAP
+				SendGrid
+				SFTP
+				SFTP - SSH
+				SharePoint
+				Slack
+				スライディング ウィンドウ
+				SMTP
+				SQL Server
+				XML の変換
+				Twilio
+				X12
+				XML 検証
+				
+		ロジック アプリ		
+		交通量を含めた 2 地点間の移動時間をチェックします		
+		平日の朝に実行されます		
+		時間が特定の上限を超えると、		
+		ロジック アプリにより、		
+		移動時間と目的地到着までに必要な追加時間が記載されたメールが送信されます		
+				
+				
+		空のロジック アプリを作成します。		
+		ロジック アプリのスケジュールを指定する繰り返しトリガーを追加します。		
+		ルートの移動時間を取得する Bing 地図アクションを追加します。		
+		変数を作成して移動時間を秒から分に変換し、その結果を変数に保存するアクションを追加します。		
+		指定した上限に照らして移動時間を比較する条件を追加します。		
+		移動時間が上限を超えた場合にメールを送信するアクションを追加します		
+				
+		前提条件		
+		①、Azureアカウント		
+		2、メールアカウント (Office 365 Outlook、Outlook.com、Gmail など) のメール アカウント		
+				
+		ロジック アプリを作成する		
+		繰り返しトリガーを追加する		
+		ルートの移動時間を取得する		
+		　　　Bing Maps API キーを用意し		
+		　　　移動時間を格納するための変数を作成する		
+		　　　　　分に変換して格納するための変数		
+		　　　  Bing Maps API キーを用意しておきます		
+		　　　上限を超えたときにメールを送信する		
+		　　　　　travelTime プロパティの値が特定の上限を超えている		
+		　　　ロジック アプリを実行する		
+
+
+
+
+
+
+
+
+
+
+
+
+
+プロジェクトの業務により、項目の機能に
+テストケースを計画内の別々のテストスイートに分割して、
+テストスイートを利用して、監視、管理しやすくなっています
+テスト スイートからテストを選択し、実行します。裏側にテストケース順序でテストを行ています。。
+各テストの最新の結果が表示可能です
+**********************
+**********************
+テストスイート
+　　　テストケース
+　　　　インタフェースでMstest1 UI テスト、Selenium テスト、単体テスト
+
+
+https://azure.microsoft.com/ja-jp/pricing/details/logic-apps/

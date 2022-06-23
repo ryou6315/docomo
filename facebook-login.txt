@@ -1,0 +1,27 @@
+ //nec.com login
+      baseUrl: this.props.baseUrl,
+  
+
+      //facebook login
+      // baseUrl: 'http://dev-57123043.okta.com',
+
+      // clientId: '0oa5h62uutofDCAU75d7',
+      // redirectUri: 'http://ou-wang-ip.japaneast.cloudapp.azure.com:3000/authorization-code/callback',
+
+      // idps: [
+      //    {type: 'Facebook', id: '0oa5h69yeg5V57yjO5d7'}
+      // ],
+      
+      // authParams: {
+      //    pkce: false,
+      //    responseType: 'code', 
+      //    response_mode: 'query' ,
+      //    scope:['openid','email','profile'],
+      //    state: 'ApplicationStateCSRFProtection',
+      //    none:'SampleNonce'   
+      //  },
+ 
+
+      // idpDiscovery:{
+      //   requestContext: 'http://ou-wang-ip.japaneast.cloudapp.azure.com:3000/authorization-code/callback'
+      // },

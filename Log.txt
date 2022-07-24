@@ -1,0 +1,17 @@
+https://www.youtube.com/watch?v=yRrVJoI0FIs&t=3s																				
+		saml okta																		
+		service provider																		
+
+https://simplesamlphp.org/download?latest -O simplesamlphp-latest.tar.gz
+https://github.com/simplesamlphp/simplesamlphp/releases?page=3
+https://github.com/simplesamlphp/simplesamlphp/releases/download/v1.17.2/simplesamlphp-1.17.2.tar.gz
+https://installati.one/ubuntu/20.04/simplesamlphp/
+https://techexpert.tips/simplesamlphp/simplesamlphp-installation-ubuntu-linux/
+	
+
+
+drupal:
+https://github.com/simplesamlphp/simplesamlphp/blob/master/docs/simplesamlphp-install.md
+https://www.google.com/search?q=SimpleSAML+php+apache+github&sxsrf=ALiCzsafF_UPRpXhYUUTwsFTquXs3SZo9g:1658647494904&ei=xvPcYojvNsiN-Aa4nYKACA&start=10&sa=N&ved=2ahUKEwiI6va1_5D5AhXIBt4KHbiOAIAQ8tMDegQIARA5&biw=2133&bih=1041&dpr=0.9
+https://www.arubacloud.com/tutorial/how-to-install-drupal-8-ubuntu-20.aspx#Prerequisites
+https://vitux.com/how-to-install-drupal-on-ubuntu-20-04/

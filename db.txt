@@ -1,0 +1,47 @@
+Sub ConnectToSQLite()
+        
+        Dim conn As ADODB.Connection
+        Dim rst As ADODB.Recordset
+        Dim conn_string As String, database_path As String, sql_statement As String
+        Dim i As Long
+        
+        ' 1. How to connect to a SQLite database
+        database_path = "F:\15.¥¨©`¥Ö¥ê¥Ã¥¸ÖêÊ½»áÉç\10.vba\sqlite-dll-win64-x64-3400000\Chinook_Sqlite.sqlite"
+        
+        conn_string = "driver=SQLite3 ODBC Driver;"
+        conn_string = conn_string & "Database=" & database_path & ";"
+        
+        Set conn = New ADODB.Connection
+        With conn
+            .Open conn_string
+            .CursorLocation = adUseClient
+        End With
+                
+        ' 2. How to pass sql statement to pull the data into Excel
+        sql_statement = "SELECT * FROM 'Customer' WHERE Company IS NULL"
+        
+        Set rst = New ADODB.Recordset
+        With rst
+            .CursorLocation = adUseClient
+            .Open Source:=sql_statement, ActiveConnection:=conn
+        End With
+        
+        With ThisWorkbook.Worksheets("Dataset")
+            .Cells.ClearContents
+            
+            '// Insert recordset
+            .Range("A2").CopyFromRecordset rst
+            
+            '// insert column label
+            For i = 0 To rst.Fields.Count - 1
+                .Cells(1, i + 1) = rst.Fields(i).Name
+            Next i
+        End With
+                        
+        rst.Close
+        conn.Close
+        
+        Set rst = Nothing
+        Set conn = Nothing
+    
+End Sub

@@ -1,0 +1,21 @@
+$env:HTTP_PROXY="http://proxygate2.nic.nec.co.jp:8080"
+$env:HTTPS_PROXY="http://proxygate2.nic.nec.co.jp:8080"
+
+
+$env:ISSUER="https://nec-markeid.oktapreview.com/oauth2/default"
+$env:CLIENT_ID="0oabokgz2d1mN6GHi1d7"
+$env:CLIENT_SECRET="4r-_xLtmS9XolngIKZONe0YB6GAjHzvX8ZfWJL7Wr9rShE7dFHFZa5ZyH15XGJQZ"
+
+
+set ISSUER="https://nec-markeid.oktapreview.com/oauth2/default"
+set CLIENT_ID="0oabokgz2d1mN6GHi1d7"
+set CLIENT_SECRET="4r-_xLtmS9XolngIKZONe0YB6GAjHzvX8ZfWJL7Wr9rShE7dFHFZa5ZyH15XGJQZ"
+
+
+$env:REDIRECT_URI="http://localhost:8080/login/callback"
+$env:SPA_CLIENT_ID="0oabokgz2d1mN6GHi1d7"
+
+$env:ISSUER="https://nec-markeid.oktapreview.com/oauth2/default"
+$env:CLIENT_ID="0oabol2q7thzinTY41d7"
+$env:CLIENT_SECRET="r4qvKkFcqR-GcjvaUOk3pPSirrRIqIeetzLsHUFgFTsWPagXKERZyEVZenGY0_Py"
+
